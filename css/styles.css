@@ -8180,6 +8180,20 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-body-bg-rgb), var(--bs-bg-opacity)) !important;
 }
 
+/*custom*/
+.bg-mailmatta {
+    background-color: #7b6cde !important;
+}
+
+.bg-spree {
+    background-color: #ffcd24 !important;
+}
+
+.bg-pupusa {
+    background-color: #dccbf5 /*#b6c0fe*/ !important;
+}
+
+
 .bg-transparent {
   --bs-bg-opacity: 1;
   background-color: transparent !important;
