@@ -95,7 +95,7 @@
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5 pt-0">
-                            <p class="fs-5">For this project, my biggest task was making the character movement, taking inspiration from 3D Sonic Games and Landfall's Haste. Instead of relying on Unreal's physics engine, I calculated all of the physics of the player by manipulating its velocity directly, resulting in highly customizable, arcadey physics. Consequently, my vector math improved greatly and I have a newfound understanding of simulated physics.</p>
+                            <p class="fs-5">SPREE is an alternative control game, and I built the controller. Before this project, I had virtually no experience with hardware. I had to figure out how to turn a shopping cart into a co-op racing game, where one player sits inside the cart and steers while the other jogs in place behind the cart to accelerate.</p>
                         </div>
                     </div>
                 </div>
@@ -108,7 +108,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="p-5">
-                            <h2 class="display-4">quick explaination?</h2>
+                            <p class="fs-5">I went through many iterations, researching components that could act as input devices, eventually settling on force sensitive resistors (FSRs).</p>
                         </div>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5 pt-0">
-                            <p class="fs-5">For this project, my biggest task was making the character movement, taking inspiration from 3D Sonic Games and Landfall's Haste. Instead of relying on Unreal's physics engine, I calculated all of the physics of the player by manipulating its velocity directly, resulting in highly customizable, arcadey physics. Consequently, my vector math improved greatly and I have a newfound understanding of simulated physics.</p>
+                            <p class="fs-5">The final setup: 2 FSRs inside the cart for steering with feet, and 2 FSRs under a cardboard pad behind the cart for stepping. In retrospect, the FSRs were not designed to handle the weight of an entire person, and the signal from the jogging sensors became somewhat unreliable.</p>
                         </div>
                     </div>
                 </div>
@@ -134,7 +134,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="p-5">
-                            <h2 class="display-4">quick explaination?</h2>
+                            <p class="fs-5">I'm very proud of the movement system I made for this game. The visible model of the kart follows an insvisible sphere collider that rolls freely, which results in movement that works great for slopes, jumps, and rough terrain, and feels smooth and responsive.</p>
                         </div>
                     </div>
                 </div>
@@ -154,7 +154,7 @@
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5 pt-0">
-                            <p class="fs-5">For this project, my biggest task was making the character movement, taking inspiration from 3D Sonic Games and Landfall's Haste. Instead of relying on Unreal's physics engine, I calculated all of the physics of the player by manipulating its velocity directly, resulting in highly customizable, arcadey physics. Consequently, my vector math improved greatly and I have a newfound understanding of simulated physics.</p>
+                            <p class="fs-5">The enemies move along a grid, choosing a new cell to travel to after attacking.</p>
                         </div>
                     </div>
                 </div>
@@ -167,7 +167,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="p-5">
-                            <h2 class="display-4">quick explaination?</h2>
+                            <p class="fs-5">I made a system where the player's paint will snap to a grid, making it easy to calculate how much of each building the player has been painted. The grid, although invisible, also makes it clear to players that painting in the same spot twice is unproductive, encouraging them to fully cover buildings.</p>
                         </div>
                     </div>
                 </div>
@@ -187,7 +187,7 @@
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5 pt-0">
-                            <p class="fs-5">For this project, my biggest task was making the character movement, taking inspiration from 3D Sonic Games and Landfall's Haste. Instead of relying on Unreal's physics engine, I calculated all of the physics of the player by manipulating its velocity directly, resulting in highly customizable, arcadey physics. Consequently, my vector math improved greatly and I have a newfound understanding of simulated physics.</p>
+                            <p class="fs-5">Pupusa Time uses motion controls to mimic the steps of preparing a pupusa. Unity does not have native support for motion input, so I used third-party software which has few online resources, leading me to look through the source code to troubleshoot connectivity issues. I used the accelerometer to detect movement along the pitch and roll axes, and the gyroscope (in combination with a button press) to detect movement along the yaw axis.</p>
                         </div>
                     </div>
                 </div>
@@ -200,7 +200,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="p-5">
-                            <h2 class="display-4">quick explaination?</h2>
+                            <p class="fs-5">Halfway through development I discovered that when building the game, the Dualshock 4 wouldn't send motion input, and I pivoted to using Joycons. Luckily the accelerometer and gyroscope values were fairly similar, so the conversion process was quick.</p>
                         </div>
                     </div>
                 </div>
