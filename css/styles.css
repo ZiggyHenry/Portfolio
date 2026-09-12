@@ -8181,6 +8181,10 @@ textarea.form-control-lg {
 }
 
 /*custom*/
+.bg-projectsHeader {
+    background-color: #f93333 !important;
+}
+
 .bg-mailmatta {
     background-color: #7b6cde !important;
 }
@@ -8193,6 +8197,7 @@ textarea.form-control-lg {
     background-color: #dccbf5 /*#b6c0fe*/ !important;
 }
 
+/*end custom*/
 
 .bg-transparent {
   --bs-bg-opacity: 1;
