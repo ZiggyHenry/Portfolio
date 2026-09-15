@@ -2846,10 +2846,10 @@ textarea.form-control-lg {
 
 .btn-primary {
     --bs-btn-color: #fff;
-    --bs-btn-bg: #e54420;
+    --bs-btn-bg: #e2b51f;
     --bs-btn-border-color: var(--bs-btn-border-color);
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #b1321b;
+    --bs-btn-hover-bg: #b49019;
     --bs-btn-hover-border-color: var(--bs-btn-hover-bg);
     --bs-btn-focus-shadow-rgb: 241, 46, 141;
     --bs-btn-active-color: #fff;
@@ -7727,6 +7727,19 @@ textarea.form-control-lg {
   padding: 3rem !important;
 }
 
+.p-6 {
+    padding: 3.5rem !important;
+}
+
+.p-7 {
+    padding: 5rem !important;
+}
+
+.p-aboutMe {
+    padding-top: 10rem !important;
+    padding-bottom: 10rem !important;
+}
+
 .px-0 {
   padding-right: 0 !important;
   padding-left: 0 !important;
@@ -7960,7 +7973,7 @@ textarea.form-control-lg {
 }
 
 .fw-semibold {
-  font-weight: 600 !important;
+  font-weight: 450 !important;
 }
 
 .fw-bolder {
@@ -8182,7 +8195,7 @@ textarea.form-control-lg {
 
 /*custom*/
 .bg-projectsHeader {
-    background-color: #f93333 !important;
+    background-color: #f95555 !important;
 }
 
 .bg-mailmatta {
@@ -8198,7 +8211,7 @@ textarea.form-control-lg {
 }
 
 .bg-colorezz {
-    background-color: #35f715 !important;
+    background-color: #20FA14 !important;
 }
 
 /*end custom*/
@@ -8312,6 +8325,15 @@ textarea.form-control-lg {
 .rounded-start {
   border-bottom-left-radius: var(--bs-border-radius) !important;
   border-top-left-radius: var(--bs-border-radius) !important;
+}
+
+.custom-border {
+    --color: #FDF1B9;
+    border-left: 220px solid var(--color);
+    border-right: 220px solid var(--color);
+    border-top: 0px;
+    border-bottom: 0px;
+    border-style: solid;
 }
 
 .visible {
@@ -10879,15 +10901,15 @@ html {
 }
 
 header.masthead {
-  position: relative;
-  overflow: hidden;
-  padding-top: calc(7rem + 72px);
-  padding-bottom: 7rem;
-  background: linear-gradient(0deg, #946464 0%, #393232 100%);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: scroll;
-  background-size: cover;
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 7rem;
+    background: linear-gradient(0deg, #bba06e 0%, #988055 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
 }
 header.masthead .masthead-content {
   z-index: 1;
@@ -10899,12 +10921,12 @@ header.masthead .masthead-content .masthead-heading {
 header.masthead .masthead-content .masthead-subheading {
   font-size: 2rem;
 }
-header.masthead .bg-circle {
-    z-index: 0;
-    position: absolute;
-    border-radius: 100%;
-    background: linear-gradient(0deg, #f90000 0%, #fcfcf7 100%);
-}
+    header.masthead .bg-circle {
+        z-index: 0;
+        position: absolute;
+        border-radius: 100%;
+        background: linear-gradient(0deg, #dc3545 0%, #FDF1B9 100%);
+    }
 header.masthead .bg-circle-1 {
   height: 90rem;
   width: 90rem;
