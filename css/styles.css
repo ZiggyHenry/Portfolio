@@ -10905,11 +10905,13 @@ header.masthead {
     overflow: hidden;
     padding-top: calc(7rem + 72px);
     padding-bottom: 7rem;
-    background: linear-gradient(0deg, #bba06e 0%, #988055 100%);
+    background: linear-gradient(0deg, #ebd278 0%, #ffcd24 100%);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
+
+    color: #fff;
 }
 header.masthead .masthead-content {
   z-index: 1;
