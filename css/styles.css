@@ -8332,7 +8332,7 @@ textarea.form-control-lg {
     /* Normal mobile styling. The desktop class does nothing here. */
 }
 
-/* This rule only activates if the screen is 768px wide or larger */
+/* This rule only activates if the screen is 'x'px wide or larger */
 @media screen and (min-width: 1200px) {
     .desktop-only-border {
         --color: #FDF1B9;
@@ -8341,6 +8341,17 @@ textarea.form-control-lg {
         border-top: 0px;
         border-bottom: 0px;
         border-style: solid;
+    }
+}
+
+.big-gif {
+    /* Mobile Styling */
+    width: 100% !important;
+}
+
+@media screen and (min-width: 1000px) {
+    .big-gif {
+        width: 75% !important
     }
 }
 
