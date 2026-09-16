@@ -84,12 +84,12 @@
                 <div class="p-1">
                     <h1 class="text-center display-5">3D Momentum Based Platformer with a Parry Mechanic</h1>
                 </div>
+                <div class="text-center">
+                    <div class="py-1 px-0"><img class="img-fluid w-75" src="assets/img/mailmattaSpeedrun.gif" alt="..." /></div>
+                </div>
                 <div class="container px-5 pt-5">
-                    <div class="row gx-5 align-items-center">
-                        <div class="col-lg-6 order-lg-2">
-                            <div class="py-5 pt-0"><img class="img-fluid" src="assets/img/mailmattaMovement.gif" alt="..." /></div>
-                        </div>
-                        <div class="col-lg-6 order-lg-1">
+                    <div class="align-items-center">
+                        <div class="">
                             <div class="p-5 pt-0">
                                 <p class="fs-5">My biggest task was making the character movement, taking inspiration from <strong>3D Sonic Games</strong> and <strong>Landfall's Haste</strong>. Instead of relying on Unreal's physics engine, I calculated all of the physics of the player by manipulating its velocity directly, resulting in highly customizable, arcadey physics. Consequently, my vector math improved greatly and I have a greater understanding of simulated physics.</p>
                             </div>
@@ -100,11 +100,11 @@
                 <div class="container px-5">
                     <div class="row gx-5 align-items-center">
                         <div class="col-lg-6">
-                            <div class="p-5"><img class="img-fluid" width="1000"src="assets/img/parry.gif" alt="..." /></div>
+                            <div class="p-5"><img class="img-fluid" width="1000" src="assets/img/parry.gif" alt="..." /></div>
                         </div>
                         <div class="col-lg-6">
                             <div class="p-1">
-                                <h1 class="text-center display-6 fw-semibold">Upon successful parry, projectiles reroute to attack the nearest enemy.</h1>
+                                <h1 class="display-6 fw-semibold">Upon successful parry, projectiles reroute to attack the nearest enemy.</h1>
                             </div>
                         </div>
                     </div>
@@ -142,8 +142,8 @@
                             <div class="p-5"><img class="img-fluid" src="assets/img/spreefootdiagram.png" alt="..." /></div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="p-5">
-                                <p class="fs-5">I went through many iterations, researching components that could act as input devices, eventually settling on force sensitive resistors (FSRs).</p>
+                            <div class="p-1 px-5">
+                                <h1 class="display-6 fw-semibold">I researched many components that could act as input devices and iterated on many control layouts.</h1>
                             </div>
                         </div>
                     </div>
@@ -155,11 +155,16 @@
                             <div class="p-5 pt-0"><img class="img-fluid" src="assets/img/gdc.webp" alt="..." /></div>
                         </div>
                         <div class="col-lg-6 order-lg-1">
-                            <div class="p-1">
-                                <h1 class="text-center display-6 fw-semibold">The final setup:</h1>
+                            <div class="p-1 px-5">
+                                <h1 class="display-6 fw-semibold">The final setup:</h1>
                             </div>
-                            <div class="p-5 pt-0">
-                                <p class="fs-5">2 FSRs inside the cart for steering with feet, and 2 FSRs under a cardboard pad behind the cart for stepping. In retrospect, the FSRs were not designed to handle the weight of an entire person, and the signal from the jogging sensors became somewhat unreliable.</p>
+                            <div class="p-5 pt-0 fs-5">
+                                <ul>
+                                    <li>Sensors inside the cart for steering with feet</li>
+                                    <li>Sensors under a mat behind the cart for jogging</li>
+                                    <li>Barcode Scanner for powerups</li>
+                                </ul>
+                                <p class="">In retrospect, the FSRs were not designed to handle the weight of an entire person, and the signal from the jogging sensors became somewhat unreliable.</p>
                             </div>
                         </div>
                     </div>
@@ -172,9 +177,9 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="p-1">
-                                <h1 class="text-center display-6 fw-semibold">Movement system</h1>
+                                <h1 class="display-6 fw-semibold">Movement system</h1>
                             </div>
-                            <div class="p-5">
+                            <div class="px-5">
                                 <p class="fs-5">The visible model of the kart follows an insvisible sphere collider that rolls freely, resulting in movement that works great for slopes, jumps, and rough terrain, and feels smooth and responsive.</p>
                             </div>
                         </div>
@@ -191,14 +196,14 @@
                 <div class="p-1">
                     <h1 class="text-center display-5">Cooking Rhythm Game</h1>
                 </div>
-                <div class="container px-5 pt-5">
+                <div class="container px-5 pt-3">
                     <div class="row gx-5 align-items-center">
                         <div class="col-lg-6 order-lg-2">
-                            <div class="p-0 pt-0"><img class="img-fluid" src="assets/img/pupusatimegameplay.gif" alt="..." /></div>
+                            <div class="p-0"><img class="img-fluid" src="assets/img/pupusatimegameplay.gif" alt="..." /></div>
                         </div>
                         <div class="col-lg-6 order-lg-1">
-                            <div class="p-1">
-                                <h1 class="text-center display-6 fw-semibold">Pupusa Time uses motion controls to mimic the steps of preparing a pupusa.</h1>
+                            <div class="p-5 pb-0">
+                                <h1 class="display-6 fw-semibold">Pupusa Time uses motion controls to mimic the steps of preparing a pupusa.</h1>
                             </div>
                             <div class="p-5 pt-0">
                                 <p class="fs-5">Unity does not have native support for motion input, so I used third-party software which has few online resources, leading me to look through the source code to troubleshoot connectivity issues. I used the accelerometer to detect movement along the pitch and roll axes, and the gyroscope (in combination with a button press) to detect movement along the yaw axis.</p>
@@ -213,8 +218,11 @@
                             <div class="p-5"><img class="img-fluid" src="assets/img/motioncontrolscrop2.gif" alt="..." /></div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="p-5">
-                                <p class="fs-5">We relied on the Dualshock 4 controller until I discovered that when building the game, the Dualshock 4 wouldn't send motion input. I then pivoted to Joycons.</p>
+                            <div class="p-5 pb-0">
+                                <p class="fs-5">We relied on the Dualshock 4 controller until I discovered that when building the game, the Dualshock 4 wouldn't send motion input.</p>
+                            </div>
+                            <div class="px-5 pt-0">
+                                <h1 class="display-6 fw-semibold">I then pivoted to Joycons.</h1>
                             </div>
                         </div>
                     </div>
@@ -238,7 +246,7 @@
                         <div class="col-lg-6 order-lg-1">
                             <div class="p-5 pt-0">
                                 <h1 class="display-6 fw-semibold">The enemies move along a grid, choosing a new cell to travel to after attacking.</h1>
-</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -250,7 +258,7 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="p-5">
-                                <p class="fs-5">The player's paint snaps to a grid, which I use to calculate how much of each building the player has painted. The grid, although invisible, also makes it clear to players that painting in the same spot twice is unproductive, encouraging them to fully cover buildings.</p>
+                                <p class="fs-5">The player's paint snaps to a grid, which I used to calculate how much of each building the player has painted. The grid, although invisible, also makes it clear to players that painting in the same spot twice is unproductive, encouraging them to fully cover buildings.</p>
                             </div>
                         </div>
                     </div>
