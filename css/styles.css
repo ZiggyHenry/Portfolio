@@ -8327,13 +8327,21 @@ textarea.form-control-lg {
   border-top-left-radius: var(--bs-border-radius) !important;
 }
 
-.custom-border {
-    --color: #FDF1B9;
-    border-left: 220px solid var(--color);
-    border-right: 220px solid var(--color);
-    border-top: 0px;
-    border-bottom: 0px;
-    border-style: solid;
+/* Mobile styles go here by default (Mobile-First approach) */
+.desktop-only-border {
+    /* Normal mobile styling. The desktop class does nothing here. */
+}
+
+/* This rule only activates if the screen is 768px wide or larger */
+@media screen and (min-width: 1200px) {
+    .desktop-only-border {
+        --color: #FDF1B9;
+        border-left: 220px solid var(--color);
+        border-right: 220px solid var(--color);
+        border-top: 0px;
+        border-bottom: 0px;
+        border-style: solid;
+    }
 }
 
 .visible {
@@ -10905,7 +10913,7 @@ header.masthead {
     overflow: hidden;
     padding-top: calc(7rem + 72px);
     padding-bottom: 7rem;
-    background: linear-gradient(0deg, #f1cf56 0%, #ffcd24 100%);
+    background: linear-gradient(0deg, #f1cf56 0%, #ffcd24 100%); /*red on bottom? like the peaches?*/
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
