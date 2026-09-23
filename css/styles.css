@@ -8335,7 +8335,7 @@ textarea.form-control-lg {
 /* This rule only activates if the screen is 'x'px wide or larger */
 @media screen and (min-width: 1200px) {
     .desktop-only-border {
-        --color: #FDF1B9;
+        --color: #f5e095;
         border-left: 220px solid var(--color);
         border-right: 220px solid var(--color);
         border-top: 0px;
