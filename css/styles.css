@@ -7896,6 +7896,10 @@ textarea.form-control-lg {
   padding-left: 3rem !important;
 }
 
+.ps-10 {
+    padding-left: 6rem !important;
+}
+
 .gap-0 {
   gap: 0 !important;
 }
